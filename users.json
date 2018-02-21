@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ee75eb27-9246-43c1-af5a-a8d33f8a963f",
+    "email": "somecoolrobot@gmail.com",
+    "password_hash": "$2a$10$s.ft45z0r0bl1qczTslgIu3QpYQj/imumwxTFa8SBFwKDz4mZ.nP6",
+    "provider_credentials": [
+      {
+        "email": "somecoolrobot@gmail.com",
+        "encrypted_api_token": "SI7AjjI7PHo4o3dCwYoNEk7mLsKATb3u3aszD92OwemUAszQus1CjzlDGHcs\ndO5PZAl1MaBEZeqIm7LzDhtY1Q==\n",
+        "provider_name": "GitHub",
+        "type": "github",
+        "full_name": "Fastlane CI"
+      }
+    ]
+  }
+]
