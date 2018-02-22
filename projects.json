@@ -2,8 +2,8 @@
   {
     "repo_config": {
       "id": "ad0dadd1-ba5a-4634-949f-0ce62b77e48f",
-      "git_url": "https://github.com/nakhbari/HelloWorldCiConfig",
-      "full_name": "nakhbari/HelloWorldCiConfig",
+      "git_url": "https://github.com/nakhbari/HelloWorld",
+      "full_name": "nakhbari/HelloWorld",
       "description": "Fastlane CI Demo App Repository",
       "name": "Fastlane CI Demo App",
       "provider_type_needed": "github",
