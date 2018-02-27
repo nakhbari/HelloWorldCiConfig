@@ -17,6 +17,10 @@
       {
         "type": "commit",
         "branch": "test-branch"
+      },
+      {
+        "type": "nightly",
+        "branch": "master"
       }
     ]
   }
