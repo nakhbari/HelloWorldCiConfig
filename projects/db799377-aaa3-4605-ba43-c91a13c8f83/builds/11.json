@@ -1,7 +1,7 @@
 {
   "number": 11,
   "timestamp": 1520031865,
-  "duration": -1,
+  "duration": 1.966897,
   "sha": "f5cf374434394ff6beea9ba45161e16c66844fbe",
-  "status": "pending"
+  "status": "failure"
 }
