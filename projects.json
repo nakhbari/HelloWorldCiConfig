@@ -11,7 +11,7 @@
     },
     "id": "db799377-aaa3-4605-ba43-c91a13c8f83",
     "project_name": "fastlane CI demo app test",
-    "lane": "ios test",
+    "lane": "test",
     "enabled": true,
     "job_triggers": [
       {
