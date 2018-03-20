@@ -1,11 +1,11 @@
 {
   "number": 14,
   "timestamp": 1521564214,
-  "duration": -1,
+  "duration": 0.678745,
   "sha": "e1be13db5ded3bb89cab536f2522668d99c5811e",
   "artifacts": [
 
   ],
   "description": null,
-  "status": "pending"
+  "status": "failure"
 }
