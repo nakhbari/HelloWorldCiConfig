@@ -1,12 +1,35 @@
 {
   "number": 2,
-  "status": "pending",
+  "status": "failure",
   "timestamp": 1524502465,
-  "duration": -1,
+  "duration": 2394.072131,
   "sha": "5903a0a7d2238846218c08ad9d5e278db7cf46c7",
   "artifacts": [
-
+    {
+      "type": "fastlane.verbose.log",
+      "reference": "2a60c5f6-c5f1-4ca8-bf52-4b3304d29d14/2/fastlane.verbose.log/fastlane.verbose.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "a55b3312-4916-47e0-a78f-6148347e797b"
+    },
+    {
+      "type": "fastlane.log",
+      "reference": "2a60c5f6-c5f1-4ca8-bf52-4b3304d29d14/2/fastlane.log/fastlane.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "e32141cb-3a48-4e0f-9720-4026189c366f"
+    },
+    {
+      "type": "SCAN_DERIVED_DATA_PATH",
+      "reference": "2a60c5f6-c5f1-4ca8-bf52-4b3304d29d14/2/SCAN_DERIVED_DATA_PATH/HelloWorld-flwwmjdckeriapekxpnyequupamw",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "74d7599c-8c5a-45f6-b30a-4f4c4932fb92"
+    }
   ],
-  "description": null,
+  "description": "Build failed",
   "trigger": "commit"
 }
