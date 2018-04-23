@@ -147,5 +147,34 @@
         "branch": null
       }
     ]
+  },
+  {
+    "repo_config": {
+      "id": "96ea31bb-9050-4777-be52-25a4afc43083",
+      "git_url": "https://github.com/nakhbari/HelloWorld",
+      "description": null,
+      "provider_credential_type_needed": "github",
+      "name": "HelloWorld",
+      "hidden": false,
+      "full_name": "nakhbari/HelloWorld"
+    },
+    "enabled": true,
+    "project_name": "fika fika yaaaaaaaeey",
+    "id": "043c299b-01fc-45a9-ba2e-70d182493f53",
+    "platform": "ios",
+    "lane": "test",
+    "artifact_provider": {
+      "class_name": "FastlaneCI::LocalArtifactProvider"
+    },
+    "job_triggers": [
+      {
+        "type": "manual",
+        "branch": "master"
+      },
+      {
+        "type": "commit",
+        "branch": null
+      }
+    ]
   }
 ]
