@@ -1,12 +1,35 @@
 {
   "number": 1,
-  "status": "pending",
+  "status": "success",
   "timestamp": 1524500089,
-  "duration": -1,
+  "duration": 128.350086,
   "sha": "7856760828bf46d52aa32d373ee70290900611ed",
   "artifacts": [
-
+    {
+      "type": "fastlane.verbose.log",
+      "reference": "39b2d6ca-492c-492a-bdcd-3014df4eca41/1/fastlane.verbose.log/fastlane.verbose.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "9e6f1253-6174-4223-89c2-ef46f3617dfe"
+    },
+    {
+      "type": "fastlane.log",
+      "reference": "39b2d6ca-492c-492a-bdcd-3014df4eca41/1/fastlane.log/fastlane.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "a36ab6bf-ba7b-4837-be8e-c63196954d26"
+    },
+    {
+      "type": "SCAN_DERIVED_DATA_PATH",
+      "reference": "39b2d6ca-492c-492a-bdcd-3014df4eca41/1/SCAN_DERIVED_DATA_PATH/HelloWorld-exlrzypbfgkrugefpallhljwfgar",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "2b0cce35-680f-452e-ae0b-38b9b6f87855"
+    }
   ],
-  "description": null,
+  "description": "All green",
   "trigger": "commit"
 }
