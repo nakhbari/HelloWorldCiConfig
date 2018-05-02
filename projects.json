@@ -379,5 +379,34 @@
         "branch": "master"
       }
     ]
+  },
+  {
+    "repo_config": {
+      "id": "46100595-9f07-4b3b-b032-db806cfa2ebc",
+      "git_url": "https://github.com/nakhbari/HelloWorld",
+      "description": null,
+      "provider_credential_type_needed": "github",
+      "name": "HelloWorld",
+      "hidden": false,
+      "full_name": "nakhbari/HelloWorld"
+    },
+    "enabled": true,
+    "project_name": "aaes3",
+    "id": "4e16d656-791a-42e6-a647-509a46f879e0",
+    "platform": "ios",
+    "lane": "test",
+    "artifact_provider": {
+      "class_name": "FastlaneCI::LocalArtifactProvider"
+    },
+    "job_triggers": [
+      {
+        "type": "manual",
+        "branch": "master"
+      },
+      {
+        "type": "commit",
+        "branch": "master"
+      }
+    ]
   }
 ]
