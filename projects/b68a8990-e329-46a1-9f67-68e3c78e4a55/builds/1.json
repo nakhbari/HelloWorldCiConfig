@@ -1,12 +1,35 @@
 {
   "number": 1,
-  "status": "pending",
+  "status": "success",
   "timestamp": 1525305094,
-  "duration": -1,
+  "duration": 64.790232,
   "sha": "7856760828bf46d52aa32d373ee70290900611ed",
   "artifacts": [
-
+    {
+      "type": "fastlane.verbose.log",
+      "reference": "b68a8990-e329-46a1-9f67-68e3c78e4a55/1/fastlane.verbose.log/fastlane.verbose.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "7580d759-1baf-4282-8592-e75702cda056"
+    },
+    {
+      "type": "fastlane.log",
+      "reference": "b68a8990-e329-46a1-9f67-68e3c78e4a55/1/fastlane.log/fastlane.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "c3734f07-d471-4643-acab-37dce0679a20"
+    },
+    {
+      "type": "SCAN_DERIVED_DATA_PATH",
+      "reference": "b68a8990-e329-46a1-9f67-68e3c78e4a55/1/SCAN_DERIVED_DATA_PATH/HelloWorld-biykgkvlvlqewtatmcnncrboslyy",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "e9e0e6ef-cd97-49bb-b246-9fcc36a8ecee"
+    }
   ],
-  "description": null,
+  "description": "All green",
   "trigger": "commit"
 }
