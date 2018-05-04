@@ -1,13 +1,36 @@
 {
   "number": 2,
-  "status": "pending",
+  "status": "success",
   "timestamp": 1525456689,
-  "duration": -1,
+  "duration": 102.833305,
   "sha": "5903a0a7d2238846218c08ad9d5e278db7cf46c7",
   "artifacts": [
-
+    {
+      "type": "fastlane.verbose.log",
+      "reference": "4651dfbf-3cda-41f9-8ae3-f053a6da14c6/2/fastlane.verbose.log/fastlane.verbose.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "6d3bdd9c-3b68-4c34-aff8-57db8141a091"
+    },
+    {
+      "type": "fastlane.log",
+      "reference": "4651dfbf-3cda-41f9-8ae3-f053a6da14c6/2/fastlane.log/fastlane.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "dfa426dd-f13a-4d8d-b7d9-a1ddaf886a59"
+    },
+    {
+      "type": "SCAN_DERIVED_DATA_PATH",
+      "reference": "4651dfbf-3cda-41f9-8ae3-f053a6da14c6/2/SCAN_DERIVED_DATA_PATH/HelloWorld-canucsgxyoxcovexbdgshdojiubu",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "a4a6250e-fda7-4ab3-b120-e5770abbaa9a"
+    }
   ],
-  "description": null,
+  "description": "All green",
   "trigger": "commit",
   "lane": "test",
   "platform": "ios",
