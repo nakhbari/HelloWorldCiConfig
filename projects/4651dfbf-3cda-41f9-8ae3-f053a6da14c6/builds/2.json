@@ -9,7 +9,7 @@
   ],
   "description": null,
   "trigger": "commit",
-  "lane": null,
-  "platform": null,
+  "lane": "test",
+  "platform": "ios",
   "parameters": null
 }
