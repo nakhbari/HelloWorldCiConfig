@@ -16,8 +16,7 @@
     "platform": null,
     "lane": "ios test",
     "artifact_provider": {
-      "class_name": "FastlaneCI::LocalArtifactProvider",
-      "root_path": "/Users/nakhbari/.fastlane/ci/artifacts"
+      "class_name": "FastlaneCI::LocalArtifactProvider"
     },
     "job_triggers": [
       {
