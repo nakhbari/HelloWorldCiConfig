@@ -1,0 +1,20 @@
+{
+  "number": 1,
+  "status": "pending",
+  "timestamp": 1526419663,
+  "duration": -1,
+  "artifacts": [
+
+  ],
+  "description": null,
+  "trigger": "commit",
+  "lane": null,
+  "platform": null,
+  "parameters": null,
+  "git_fork_config": {
+    "sha": "7856760828bf46d52aa32d373ee70290900611ed",
+    "branch": "non-triggered-branch",
+    "clone_url": "https://github.com/nakhbari/HelloWorld.git",
+    "ref": "pull/2/head"
+  }
+}
