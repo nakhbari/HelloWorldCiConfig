@@ -8,7 +8,7 @@
   ],
   "description": null,
   "trigger": "commit",
-  "lane": null,
+  "lane": "ios test",
   "platform": null,
   "parameters": null,
   "git_fork_config": {
