@@ -1,20 +1,20 @@
 {
-  "number": 1,
+  "number": 3,
   "status": "pending",
-  "timestamp": 1526419666,
+  "timestamp": 1526419704,
   "duration": -1,
   "artifacts": [
 
   ],
   "description": null,
   "trigger": "commit",
-  "lane": "test",
-  "platform": "ios",
+  "lane": null,
+  "platform": null,
   "parameters": null,
   "git_fork_config": {
-    "sha": "7856760828bf46d52aa32d373ee70290900611ed",
-    "branch": "non-triggered-branch",
+    "sha": "5903a0a7d2238846218c08ad9d5e278db7cf46c7",
+    "branch": "test-branch",
     "clone_url": "https://github.com/nakhbari/HelloWorld.git",
-    "ref": "pull/2/head"
+    "ref": "pull/1/head"
   }
 }
