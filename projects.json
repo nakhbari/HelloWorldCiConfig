@@ -27,5 +27,34 @@
         "branch": "master"
       }
     ]
+  },
+  {
+    "repo_config": {
+      "id": "6b66ba88-31f9-4e3f-b903-179620cc7c14",
+      "git_url": "https://github.com/nakhbari/HelloWorld",
+      "description": null,
+      "provider_credential_type_needed": "github",
+      "name": "HelloWorld",
+      "hidden": false,
+      "full_name": "nakhbari/HelloWorld"
+    },
+    "enabled": true,
+    "project_name": "ToastMachine",
+    "id": "a32ef71e-368c-4091-9344-7fdc8c1ff390",
+    "platform": "ios",
+    "lane": "test",
+    "artifact_provider": {
+      "class_name": "FastlaneCI::LocalArtifactProvider"
+    },
+    "job_triggers": [
+      {
+        "type": "manual",
+        "branch": "master"
+      },
+      {
+        "type": "commit",
+        "branch": "master"
+      }
+    ]
   }
 ]
