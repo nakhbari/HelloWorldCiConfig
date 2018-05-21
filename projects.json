@@ -578,5 +578,34 @@
         "branch": "master"
       }
     ]
+  },
+  {
+    "repo_config": {
+      "id": "8d510fc1-38d3-440f-9709-65d986df5166",
+      "git_url": "https://github.com/nakhbari/HelloWorld",
+      "description": null,
+      "provider_credential_type_needed": "github",
+      "name": "HelloWorld",
+      "hidden": false,
+      "full_name": "nakhbari/HelloWorld"
+    },
+    "enabled": true,
+    "project_name": "eeeee",
+    "id": "8e34ba99-3b79-4313-937c-abdd628f28c2",
+    "platform": "ios",
+    "lane": "test",
+    "artifact_provider": {
+      "class_name": "FastlaneCI::LocalArtifactProvider"
+    },
+    "job_triggers": [
+      {
+        "type": "manual",
+        "branch": "master"
+      },
+      {
+        "type": "commit",
+        "branch": "master"
+      }
+    ]
   }
 ]
