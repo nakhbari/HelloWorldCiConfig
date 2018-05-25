@@ -1,12 +1,27 @@
 {
   "number": 4,
-  "status": "pending",
+  "status": "ci_problem",
   "timestamp": 1527269171,
-  "duration": -1,
+  "duration": 33.332456,
   "artifacts": [
-
+    {
+      "type": "fastlane.verbose.log",
+      "reference": "8efdd27f-ec99-43ca-87bb-de8d23f0328d/4/fastlane.verbose.log/fastlane.verbose.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "d20370d9-092a-4e92-9a9c-4facaff0821a"
+    },
+    {
+      "type": "fastlane.log",
+      "reference": "8efdd27f-ec99-43ca-87bb-de8d23f0328d/4/fastlane.log/fastlane.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "32e56fbe-585a-4999-b9c3-b2577ff51ec7"
+    }
   ],
-  "description": null,
+  "description": "fastlane.ci encountered an error, check fastlane.ci logs for more information",
   "trigger": "commit",
   "lane": "test",
   "platform": "ios",
