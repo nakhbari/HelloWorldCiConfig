@@ -1,11 +1,9 @@
 {
   "number": 3,
-  "status": "pending",
+  "status": "failed",
   "timestamp": 1527268329,
   "duration": -1,
-  "artifacts": [
-
-  ],
+  "artifacts": [],
   "description": null,
   "trigger": "commit",
   "lane": "test",
@@ -17,6 +15,5 @@
     "clone_url": "https://github.com/nakhbari/HelloWorld.git",
     "ref": "pull/1/head"
   },
-  "build_tools": {
-  }
+  "build_tools": {}
 }
