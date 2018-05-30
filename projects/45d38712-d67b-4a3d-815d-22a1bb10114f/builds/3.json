@@ -1,6 +1,6 @@
 {
   "number": 3,
-  "status": "failed",
+  "status": "failure",
   "timestamp": 1527268329,
   "duration": -1,
   "artifacts": [],
