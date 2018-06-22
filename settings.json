@@ -1,0 +1,12 @@
+[
+  {
+    "key": "metrics_enabled",
+    "description": "Set this to false to opt out of all metrics tracking, more information on https://github.com/fastlane/ci",
+    "value": null
+  },
+  {
+    "key": "default_apple_id",
+    "description": "The default Apple ID to use for certain tasks, like installing new versions of Xcode",
+    "value": null
+  }
+]
