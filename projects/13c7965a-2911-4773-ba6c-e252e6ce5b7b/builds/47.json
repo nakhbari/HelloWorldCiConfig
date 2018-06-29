@@ -1,12 +1,12 @@
 {
   "number": 47,
-  "status": "pending",
+  "status": "failure",
   "timestamp": 1530297275,
-  "duration": -1,
+  "duration": 79.447262,
   "artifacts": [
 
   ],
-  "description": null,
+  "description": "All green",
   "trigger": "manual",
   "lane": "test",
   "platform": "ios",
@@ -18,5 +18,6 @@
     "ref": null
   },
   "build_tools": {
+    "xcode_version": "9.4"
   }
 }
