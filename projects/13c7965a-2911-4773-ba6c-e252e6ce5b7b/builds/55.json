@@ -1,12 +1,35 @@
 {
   "number": 55,
-  "status": "pending",
+  "status": "success",
   "timestamp": 1531173796,
-  "duration": -1,
+  "duration": 136.40248,
   "artifacts": [
-
+    {
+      "type": "fastlane.verbose.log",
+      "reference": "13c7965a-2911-4773-ba6c-e252e6ce5b7b/55/fastlane.verbose.log/fastlane.verbose.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "e5093420-20fb-48c4-9caf-e30efb7ae1b8"
+    },
+    {
+      "type": "fastlane.log",
+      "reference": "13c7965a-2911-4773-ba6c-e252e6ce5b7b/55/fastlane.log/fastlane.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "d70d2c23-37a8-4b22-b6a7-8671b65105b1"
+    },
+    {
+      "type": "SCAN_DERIVED_DATA_PATH",
+      "reference": "13c7965a-2911-4773-ba6c-e252e6ce5b7b/55/SCAN_DERIVED_DATA_PATH/HelloWorld-fdgtziwwpiccwdeqoiaojhurxqqq",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "b375a0ed-0e31-4504-8ba2-dcdaa6dce179"
+    }
   ],
-  "description": null,
+  "description": "All green",
   "trigger": "commit",
   "lane": "test",
   "platform": "ios",
@@ -18,5 +41,6 @@
     "ref": null
   },
   "build_tools": {
+    "xcode_version": "9.4"
   }
 }

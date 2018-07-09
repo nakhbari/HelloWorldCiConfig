@@ -8,8 +8,8 @@
   ],
   "description": null,
   "trigger": "commit",
-  "lane": null,
-  "platform": null,
+  "lane": "test",
+  "platform": "ios",
   "parameters": null,
   "git_fork_config": {
     "sha": "b5db159ebc79f486916f7b289cc76fcf7938a904",
@@ -17,5 +17,6 @@
     "clone_url": "https://github.com/nakhbari/HelloWorld",
     "ref": null
   },
-  "build_tools": null
+  "build_tools": {
+  }
 }
