@@ -1,10 +1,17 @@
 {
   "number": 58,
-  "status": "pending",
+  "status": "failure",
   "timestamp": 1531855534,
-  "duration": -1,
+  "duration": 75.869776,
   "artifacts": [
-
+    {
+      "type": "fastlane.log",
+      "reference": "13c7965a-2911-4773-ba6c-e252e6ce5b7b/58/fastlane.log/fastlane.log",
+      "provider": {
+        "class_name": "FastlaneCI::LocalArtifactProvider"
+      },
+      "id": "2a8dae96-f5a0-498a-844b-215093308694"
+    }
   ],
   "description": null,
   "trigger": "manual",
